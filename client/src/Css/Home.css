@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Roboto+Slab:wght@300&display=swap');
+
+body{
+    font-family: 'Comforter', cursive;
+font-family: 'Roboto Slab', serif;
+}
+a{
+    text-decoration: none;
+}
+.nav-item a{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.logo{
+    margin: 10px;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.header-one{
+    background-color: #fff;
+    opacity: 1;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.follow-icons{
+    justify-content: center;
+    display: flex;
+}
+
+.follow{
+    margin: 0.4rem;
+    padding: 0.5rem;
+    list-style: none;
+}
+.blogs{
+    margin: 0 auto;
+    width: 90%;
+    line-height: 2rem;
+    text-align: center;
+}
+.blogs h1{
+    margin: 3rem auto;
+}
+.nummer .bitcoin-img{
+    justify-content: center;
+}
+.blog{
+    /* min-height:90vh; */
+    /* background: url('../Images/1.png'); */
+    opacity: 0.75;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 70%;
+}
+
+.contents{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.content{
+    margin: 2rem auto;
+
+}
+.header{
+    background-color: turquoise;
+    background-attachment: fixed;
+    margin-top: 10px;
+    width: 100%;
+    height: calc(100vh - 60px);
+    background-image: url('../Images/writeablog.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    text-align: center;
+
+}
+
+.heading{
+    color: rgb(135, 48, 248);
+    text-transform: capitalize;
+    font-size: 4rem;
+    line-height: 60px;
+    margin-bottom: 80px;
+}
+
+.heading .small{
+    display:block;
+    padding: 30px;
+    font-size: 4rem;
+}
+
+.heading .no-fill{
+    font-style: italic;
+    color: transparent;
+    opacity: 1;
+    -webkit-text-stroke: 2px rgb(182, 248, 0);
+}
+
+.btn{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.7);
+    color: #000;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-top: 2rem;
+}
+
+.btn:hover{
+    background-color: rgb(255, 255, 200);
+}
+
+.blogs-section{
+    /* width: 90%; */
+    margin: auto 1rem;
+
+}
+
+.blog-image{
+    width: 90%;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.blog-overview{
+    margin: 10px 0 20px;
+    line-height: 30px;
+}
+
+.card{
+    border: 6px solid black;
+    border-radius: 2rem;
+    text-align: center;
+    /* width:70%; */
+    padding: 3rem;
+}
+.btn.dark{
+    background: #1b1b1b;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+.comment form{
+    text-align: left;
+    margin: 0 auto;
+    padding: 2rem;
+    width: 40%;
+}
+
+.comment {
+	display: block;
+	transition: all 1s;
+}
+.commentClicked {
+	min-height: 0px;
+	border: 1px solid #eee;
+	border-radius: 5px;
+	padding: 5px 10px
+}
+
+.container textarea {
+	width: 160%;
+	border: none;
+	background: #E8E8E8;
+	padding: 5px 10px;
+	height: 50%;
+	border-radius: 5px 5px 0px 0px;
+	border-bottom: 2px solid #016BA8;
+	transition: all 0.5s;
+	margin-top: 15px;
+}
+
+button.primaryContained {
+	background: #016ba8;
+	color: #fff;
+	padding: 10px 10px;
+	border: none;
+	margin-top: 0px;
+	cursor: pointer;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.25);
+	transition: 1s all;
+	font-size: 10px;
+	border-radius: 5px;
+}
+
+button.primaryContained:hover {
+	background: #9201A8;
+}
+footer{
+    /* text-align: center; */
+    bottom:0;
+
+}
+@media (max-width:750px){
+    .bitcoin-img{
+        width: 100%;
+    }
+}
